@@ -1,6 +1,6 @@
 # faze's crawl guide
 
-## Lesson 1
+**Lesson 1**
 
 ---
 
@@ -17,13 +17,13 @@
 * character builds
 * where to go from here
 
-### glossary
+## glossary
 
 * aut - arbitrary unit of time
 * tactical - related to your current situation
 * strategic - related to your overall strategy
 
-### play online
+## play online
 
 1. these putty instructions are from memory, but they should be accurate
 1. download http://dobrazupa.org/cszo_key.ppk
@@ -41,17 +41,15 @@ grab the key, and the second to connect:
     wget -O ~/.ssh/cszo_key http://dobrazupa.org/cszo_key && chmod 400 ~/.ssh/cszo_key
     ssh -i ~/.ssh/cszo_key crawl@crawl.s-z.org
 
-### using the bots
+## bots
 
 1. use an irc client to connect to irc.freenode.net or use webchat.freenode.net
 1. join ##crawl
 1. if you prefer, or you're going to be looking up tons of stuff, you can start
 a query with any of the bots by issuing the command `/q <nick>` in your irc
-client. the bots can be queried privately
+client. the bots can be queried privately, or from inside ##crawl.
 
-**Bots**
-
-#### cheibriados
+### cheibriados
 
 chei provides information on monsters for the current trunk version and the last
 stable version. 
@@ -61,7 +59,7 @@ monster
 
 chei has a few other functions, but they aren't necessary for you right now
 
-#### henzell
+### henzell
 
 henzell hosts the learndb, which is the best source of information about crawl.
 it can only be edited publicly, and it is updated quite often. still,
@@ -70,7 +68,7 @@ information can be slightly out of date.
 **syntax**: `??topic` will return the first page about a topic, and `??topic[n]`
 where `n` is the desired entry will return that entry.
 
-#### sequell
+### sequell
 
 sequell is a thin wrapper around a postgresql database that keeps track of a
 huge amount of information about every game that has been played online. ever.
@@ -81,7 +79,7 @@ you are smart enough to learn how it works :P
 **syntax**:
 https://github.com/greensnark/dcss_henzell/blob/master/docs/listgame.txt
 
-### stats
+## stats
 
 there are 3 statistics in crawl:
 
@@ -89,7 +87,7 @@ there are 3 statistics in crawl:
 * int
 * dex
 
-#### str
+### str
 
 strength affects how much weight you can carry, and which armours you can wear
 without an increased penalty. 
@@ -105,16 +103,15 @@ raise str.
 in summary, raise str if you need more carrying capacity or you need to meet
 armour requirements
 
-#### int
+### int
 
 if you are casting spells, int is the most important statistic. it affects spell
 success and spellpower, both of which are important to a character that casts
 spells.  if you cast spells, raise int at every level up as long as you have
 enough carrying capacity.
 
-#### dex
+### dex
 
 dex affects dodging, stealth, and stabbing damage. if you are worshipping trog
 and you have enough str to wear your desired armour, raise dex. otherwise, you
 will rarely choose to raise dex.
-
