@@ -115,3 +115,7 @@ enough carrying capacity.
 dex affects dodging, stealth, and stabbing damage. if you are worshipping trog
 and you have enough str to wear your desired armour, raise dex. otherwise, you
 will rarely choose to raise dex.
+
+## Suggested builds
+
+sedk, polearms, meph, yred. guaranteed win. meph the zombies to hit the monsters.
